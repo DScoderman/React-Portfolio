@@ -3,22 +3,15 @@ import { Link } from "react-router-dom"
 const HeaderComponent = () => {
     return (
         <header> <nav>
-            <ul>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/projects">Projects</Link>
-                </li>
-                <li>
-                    <Link to="/MeInfo">About me</Link>
-                </li>
-                <li><Link to="/Resume">Resume</Link>
-                </li>
-                <li>
-                    <Link to="/ContactMe">Contact Me </Link>
-                </li>
-            </ul>
+           
+            <ul class="nav nav-pills">
+  <li role="presentation" class="active"><a href="/">Home</a></li>
+  <li role="presentation"><a href="/Projects">Projects</a></li>
+  <li role="presentation"><a href="/MeInfo">about Me</a></li>
+  <li role="presentation"><a href="/ContactMe">Contact Me</a></li>
+  <li role="presentation"><a href="/Resume">Resume</a></li>
+</ul>
+           
         </nav></header>
     )
 }

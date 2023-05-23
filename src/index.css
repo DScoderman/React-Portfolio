@@ -1,3 +1,4 @@
+
 header { 
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,14 @@ header {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #264653
 
-   
-   
+}
+header nav {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+
 }
 
 body {
@@ -17,10 +23,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #2A9D8F
  
+}
+body img {
+  display: flex;
+   justify-content: center;
+ }
+body h1 {
+ display: flex;
+  justify-content: center;
+}
+
+body section {
+  display: flex;
+  align-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ProjectCardComponent {
+margin: 15;
+
+}
+a{
+  color: white !important
+}
+
+footer {
+  background-color: #F4A261;
+  position: absolute;
+  bottom:0px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
 }

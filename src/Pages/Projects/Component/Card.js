@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
+// import CodingDog from '../../Images/Coding-Dog.jpg'
 const ProjectCardComponent = ({ project }) => {
 
     // console.log(props)
@@ -15,20 +16,20 @@ const ProjectCardComponent = ({ project }) => {
 
     console.log(project)
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth:250}}>
           <CardActionArea>
             <CardMedia
               component="img"
               height="140"
-              image="/static/images/cards/contemplative-reptile.jpg"
-              alt="green iguana"
+              image="/static/images/cards/CodingDog.jpg"
+              alt="Coding dog"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                ${project.title}
+                {project.title}
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                ${project.description}
+                {project.description}
               </Typography>
             </CardContent>
           </CardActionArea>
