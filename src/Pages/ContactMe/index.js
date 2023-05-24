@@ -1,5 +1,9 @@
 
 import FormPropsTextFields from './Component/ContactForm.js'
+const styles = {
+    display: "Flex",
+    
+}
 const ContactPage = () => {
     return (
         <>
