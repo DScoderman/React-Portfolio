@@ -50,12 +50,13 @@ margin: 15;
 
 }
 a{
-  color: white !important
+  color: white 
 }
 
 footer {
   background-color: #F4A261;
-  position: absolute;
+  display: flex;
+  align-items: flex-end;
   bottom:0px;
   width: 100%;
   height: 50px;

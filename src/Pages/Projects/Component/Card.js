@@ -3,11 +3,12 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import img from '../../../Images/CodingDog.jpg'
+import img from '../../../Images/CodingDog.jpg';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
 // import CodingDog from '../../Images/Coding-Dog.jpg'
 import uuid from 'react-uuid';
+import { blue } from '@mui/material/colors';
 
 const ProjectCardComponent = ({ project }) => {
 
@@ -20,16 +21,18 @@ const ProjectCardComponent = ({ project }) => {
 
     console.log(project)
     return (
-        <Card sx={{ maxWidth:250}}>
+        <Card sx={{ maxWidth:250, m:10}}>
           <CardActionArea>
+            <a href={project.websiteLink}>
             <CardMedia
+            
               component="img"
               height="140"
-             image="{img}"
+             image={img}
           
              key="uuid()"
               alt="Coding dog"
-            />
+            /> </a>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
                 {project.title}
@@ -41,7 +44,8 @@ const ProjectCardComponent = ({ project }) => {
           </CardActionArea>
           <CardActions>
             <Button size="small" color="primary">
-              {project.repoLink}
+            
+              <a style = {{color:"blue "}}href={project.repoLink}>TEST ME</a>
             </Button>
           </CardActions>
         </Card>

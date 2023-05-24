@@ -11,16 +11,15 @@ export default function Links() {
       sx={{
         display: 'flex',
         justifyContent: 'center',
-
-        fontSize: 50,
         typography: 'body1',
+        fontSize:'50px',
         '& > :not(style) + :not(style)': {
           ml: 50,
         },
       }}
       onClick={ResumeLocation}
     >
-      <Link href="#" underline="hover" >Resume</Link>
+      <Link href="#" underline="hover" color="white"  fontSize="50px" >Resume</Link>
       
     </Box>
   );
