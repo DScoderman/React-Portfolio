@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './Pages/Layout';
 import 'bootstrap/dist/css/bootstrap.css';
 
