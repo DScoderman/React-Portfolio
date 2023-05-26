@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.9ec0527b.css",
+    "main.js": "/React-Portfolio/static/js/main.fc98a27d.js",
+    "static/js/787.73a37cdf.chunk.js": "/React-Portfolio/static/js/787.73a37cdf.chunk.js",
+    "static/media/AboutMe.jpg": "/React-Portfolio/static/media/AboutMe.20bff5e363fa0acd1580.jpg",
+    "static/media/CodingDog.jpg": "/React-Portfolio/static/media/CodingDog.4eede036c44aa31547c3.jpg",
+    "static/media/glyphicons-halflings-regular.svg": "/React-Portfolio/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+    "static/media/glyphicons-halflings-regular.ttf": "/React-Portfolio/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/glyphicons-halflings-regular.woff": "/React-Portfolio/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/glyphicons-halflings-regular.eot": "/React-Portfolio/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/glyphicons-halflings-regular.woff2": "/React-Portfolio/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
+    "static/media/logo.svg": "/React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.9ec0527b.css.map": "/React-Portfolio/static/css/main.9ec0527b.css.map",
+    "main.fc98a27d.js.map": "/React-Portfolio/static/js/main.fc98a27d.js.map",
+    "787.73a37cdf.chunk.js.map": "/React-Portfolio/static/js/787.73a37cdf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ec0527b.css",
+    "static/js/main.fc98a27d.js"
+  ]
+}
