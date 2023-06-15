@@ -5,11 +5,11 @@ const HeaderComponent = () => {
         <header> <nav>
            
             <ul class="nav nav-pills">
-  <li role="presentation" class="active"><a href="/">Home</a></li>
-  <li role="presentation"><a href="/Projects">Projects</a></li>
-  <li role="presentation"><a href="/MeInfo">about Me</a></li>
-  <li role="presentation"><a href="/ContactMe">Contact Me</a></li>
-  <li role="presentation"><a href="/Resume">Resume</a></li>
+  <li role="presentation" className="active"><Link to="/">Home</Link></li>
+  <li role="presentation"><Link to="/Projects">Projects</Link></li>
+  <li role="presentation"><Link to="/MeInfo">about Me</Link></li>
+  <li role="presentation"><Link to="/ContactMe">Contact Me</Link></li>
+  <li role="presentation"><Link to="/Resume">Resume</Link></li>
 </ul>
            
         </nav></header>
